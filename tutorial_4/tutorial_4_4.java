@@ -7,20 +7,12 @@ class tutorial_4_4  {
 			System.out.println("please Enter more than one digits");
 		}
 		else{
-
-		
 		for(int i = 0; i<args.length; i++){
-			
 			int argsi = Integer.parseInt(args[i]);
-			
-		
 				if(args0 < argsi){
-				args0 = argsi;	
-		
+					args0 = argsi;	
 			}
 		}
-			
-		
 		System.out.println("Maximum number is : " + args0);
 	}
 }
