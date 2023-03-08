@@ -4,7 +4,7 @@ class tutorial_4_4  {
 	public static void main(String[] args) {       
 		int args0 = Integer.parseInt(args[0]);
 		if(args.length == 0 || args.length == 1){
-			System.out.println("please Enter more than one digits");
+			System.out.println("please Enter more than one number");
 		}
 		else{
 		for(int i = 0; i<args.length; i++){
